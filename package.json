@@ -1,0 +1,48 @@
+{
+  "name": "inventarioec-backend",
+  "version": "1.0.0",
+  "description": "Sistema de inventario para negocios en Ecuador, desarrollado con Node.js, Express y MongoDB. Permite gestionar productos, categorías y movimientos de stock de manera simple, rápida y organizada.",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "start": "node server.js",
+    "test": "jest --runInBand"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EriMaldonado/inventarioec-backend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "jest": {
+    "testEnvironment": "node",
+    "transform": {
+      "^.+\\.js$": "babel-jest"
+    }
+  },
+  "bugs": {
+    "url": "https://github.com/EriMaldonado/inventarioec-backend/issues"
+  },
+  "homepage": "https://github.com/EriMaldonado/inventarioec-backend#readme",
+  "dependencies": {
+    "axios": "^1.13.2",
+    "bcryptjs": "^3.0.3",
+    "chalk": "^5.6.2",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^9.0.0",
+    "morgan": "^1.10.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.28.5",
+    "@babel/preset-env": "^7.28.5",
+    "babel-jest": "^30.2.0",
+    "jest": "^30.2.0",
+    "nodemon": "^3.1.11",
+    "supertest": "^7.1.4"
+  }
+}
